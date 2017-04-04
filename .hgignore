@@ -10,8 +10,13 @@ syntax: glob
 *.pdf
 
 .ipynb_checkpoints/*
+
+notebooks/*/*.png
+notebooks/*/*.pdf
+notebooks/*/*/*.pdf
+notebooks/*/*/*.png
 notebooks/*/.ipynb_checkpoints/*
 notebooks/*/*/.ipynb_checkpoints/*
-
 notebooks/_libs/*.mat
 notebooks/_data
+notebooks/_publish/*
