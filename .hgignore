@@ -1,0 +1,17 @@
+# use glob syntax.
+syntax: glob
+
+*.xls
+*.xlsx
+*.pyc
+*.zip
+*.eps
+*.m
+*.pdf
+
+.ipynb_checkpoints/*
+notebooks/*/.ipynb_checkpoints/*
+notebooks/*/*/.ipynb_checkpoints/*
+
+notebooks/_libs/*.mat
+notebooks/_data
